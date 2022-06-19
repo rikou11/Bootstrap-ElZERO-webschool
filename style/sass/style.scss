@@ -1,5 +1,41 @@
+$dark-color: #19283f;
+$green-color: #33d1cc;
+$red-color: #ff3150;
+$yellow-color: #ffc400;
+$section-color: #eff7fa;
 body {
   font-family: "Nunito Sans", sans-serif;
-  margin: 0;
-  padding: 0;
+}
+
+.navbar {
+  background: $dark-color;
+  .navbar-toggler {
+    color: white;
+    font-size: 25px;
+    border-color: white;
+  }
+  .search {
+    color: $green-color;
+  }
+  .search svg {
+    border-left: 1px solid $green-color;
+    padding-left: 10px;
+  }
+}
+.navbar-nav {
+  .nav-item {
+    .nav-link {
+      color: $section-color;
+      &:hover {
+        color: $green-color;
+      }
+      &:focus {
+        color: $green-color;
+      }
+    }
+
+    .active {
+      color: $green-color;
+    }
+  }
 }

@@ -5,29 +5,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href='./style/css/bootstrap.min.css'>
+    <!-- Fontawsome  -->
+    <link rel="stylesheet" href='./style/css/all.min.css'>
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400&display=swap" rel="stylesheet">
-    <!-- CSS Bootstrap -->
-    <link rel="stylesheet" href='./css/bootstrap.min.css'>
+
     <!-- CSS (SCSS) -->
     <link rel="stylesheet" href='./style/sass/style.css'>
     <title>Bootstrap Fares Starter Template</title>
 </head>
 
-<body class="container">
+<body>
+
+    <!-- * Start NavBar * -->
+    <nav class="navbar navbar-expand-lg sticky ">
+        <div class="container">
+            <img src="./imgs/logo.png" alt="logo" class="logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item p-2 p-lg-3">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item p-2 p-lg-3">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item p-2 p-lg-3">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item p-2 p-lg-3">
+                        <a class="nav-link" href="#">Design</a>
+                    </li>
+
+
+                </ul>
+                <div class="search ps-3 pe-3 d-lg-block d-none">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- * End NavBar * -->
 
 
 
 
 
-    <h1>Bootstrap Starter template By Fares Bensaad </h1>
+
 
     <!-- Javascript Bootstrap -->
     <script src='./js/bootstrap.bundle.min.js'></script>
     <!-- FontAwsome JS -->
     <script src='./js/all.min.js'></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

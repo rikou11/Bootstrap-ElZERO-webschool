@@ -1,6 +1,39 @@
 body {
   font-family: "Nunito Sans", sans-serif;
-  margin: 0;
-  padding: 0;
+}
+
+.navbar {
+  background: #19283f;
+}
+
+.navbar .navbar-toggler {
+  color: white;
+  font-size: 25px;
+  border-color: white;
+}
+
+.navbar .search {
+  color: #33d1cc;
+}
+
+.navbar .search svg {
+  border-left: 1px solid #33d1cc;
+  padding-left: 10px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #eff7fa;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #33d1cc;
+}
+
+.navbar-nav .nav-item .nav-link:focus {
+  color: #33d1cc;
+}
+
+.navbar-nav .nav-item .active {
+  color: #33d1cc;
 }
 /*# sourceMappingURL=style.css.map */
