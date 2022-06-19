@@ -24,15 +24,15 @@ body {
     border-left: 1px solid $green-color;
     padding-left: 10px;
   }
-
-  .main-btn {
-    background-color: $red-color;
-    color: white;
-    border-radius: 20px;
-    padding: 0 20px;
-    &:hover {
-      background-color: $red-color + "00";
-    }
+}
+.main-btn {
+  background-color: $red-color;
+  color: $yellow-color;
+  border-radius: 20px;
+  padding: 2px 20px;
+  &:hover {
+    background-color: #db2944;
+    color: $yellow-color;
   }
 }
 .navbar-nav {
@@ -49,6 +49,34 @@ body {
 
     .active {
       color: $green-color;
+    }
+  }
+}
+
+// * Section Landing
+#landing {
+  background: $dark-color;
+  color: $yellow-color;
+  min-height: calc(100vh - 72px);
+  h1 {
+    font-weight: bold;
+    font-size: 4rem;
+
+    span {
+      color: $yellow-color;
+      font-size: 4rem;
+    }
+  }
+  .text-center {
+    .main-btn {
+      background-color: $red-color;
+      color: $yellow-color;
+      border-radius: 20px;
+      padding: 10px 70px;
+      &:hover {
+        background-color: #db2944;
+        color: $yellow-color;
+      }
     }
   }
 }
