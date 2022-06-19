@@ -12,6 +12,10 @@ body {
   border-color: white;
 }
 
+.navbar .navbar-toggler[aria-expanded="true"] {
+  border-color: #33d1cc;
+}
+
 .navbar .search {
   color: #33d1cc;
 }
