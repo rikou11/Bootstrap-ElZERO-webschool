@@ -25,6 +25,17 @@ body {
   padding-left: 10px;
 }
 
+.navbar .main-btn {
+  background-color: #ff3150;
+  color: white;
+  border-radius: 20px;
+  padding: 0 20px;
+}
+
+.navbar .main-btn:hover {
+  background-color: "#ff315000";
+}
+
 .navbar-nav .nav-item .nav-link {
   color: #eff7fa;
 }
