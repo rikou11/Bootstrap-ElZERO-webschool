@@ -1,5 +1,7 @@
 body {
   font-family: "Nunito Sans", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar {
@@ -174,5 +176,23 @@ body {
 
 #Some-stuff .container .discription {
   max-width: 700px;
+}
+
+#our-team {
+  background-color: #eff7fa;
+}
+
+#our-team .title {
+  color: #ffc400;
+  font-size: 3rem;
+}
+
+#our-team .discription {
+  max-width: 800px;
+  margin: auto;
+}
+
+#our-team h4 {
+  background-color: #33d1cc;
 }
 /*# sourceMappingURL=style.css.map */

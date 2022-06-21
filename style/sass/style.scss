@@ -5,6 +5,8 @@ $yellow-color: hsl(46, 100%, 50%);
 $section-color: hsl(196, 52%, 96%);
 body {
   font-family: "Nunito Sans", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 // *start Navbar
 .navbar {
@@ -171,3 +173,20 @@ body {
   }
 }
 // * endsome stuff
+// * start our team
+
+#our-team {
+  background-color: $section-color;
+  .title {
+    color: $yellow-color;
+    font-size: 3rem;
+  }
+  .discription {
+    max-width: 800px;
+    margin: auto;
+  }
+  h4 {
+    background-color: $green-color;
+  }
+}
+// * end our team
