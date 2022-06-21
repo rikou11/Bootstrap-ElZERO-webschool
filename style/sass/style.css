@@ -171,4 +171,8 @@ body {
   overflow: hidden;
   position: relative;
 }
+
+#Some-stuff .container .discription {
+  max-width: 700px;
+}
 /*# sourceMappingURL=style.css.map */
