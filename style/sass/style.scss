@@ -116,3 +116,49 @@ body {
   }
 }
 // * end features
+//  * start our work
+#our-work {
+  background-color: $section-color;
+  ul .active {
+    background: $red-color;
+
+    color: $yellow-color;
+  }
+  ul li {
+    list-style: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 20px;
+    &:not(.active) {
+      &:hover {
+        color: $red-color;
+        transition: all 0.4s;
+      }
+    }
+  }
+  .box::before {
+    content: attr(data-work);
+    position: absolute;
+    background-color: #33d1ccc2;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    transition: 0.3s;
+    font-size: 1.5rem;
+    transform: translateX(calc(-100% - 5px));
+  }
+  .box:hover::before {
+    transform: translateX(0);
+  }
+  .box {
+    padding: 5px;
+    overflow: hidden;
+    position: relative;
+  }
+}
+
+// * end our work

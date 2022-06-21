@@ -114,4 +114,61 @@ body {
   font-size: 3rem;
   color: #33d1cc;
 }
+
+#our-work {
+  background-color: #eff7fa;
+}
+
+#our-work ul .active {
+  background: #ff3352;
+  color: #ffc400;
+}
+
+#our-work ul li {
+  list-style: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+#our-work ul li:not(.active):hover {
+  color: #ff3352;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+#our-work .box::before {
+  content: attr(data-work);
+  position: absolute;
+  background-color: #33d1ccc2;
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 1.5rem;
+  -webkit-transform: translateX(calc(-100% - 5px));
+          transform: translateX(calc(-100% - 5px));
+}
+
+#our-work .box:hover::before {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+#our-work .box {
+  padding: 5px;
+  overflow: hidden;
+  position: relative;
+}
 /*# sourceMappingURL=style.css.map */
