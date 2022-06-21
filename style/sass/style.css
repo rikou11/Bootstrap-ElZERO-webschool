@@ -3,7 +3,7 @@ body {
 }
 
 .navbar {
-  background: #19283f;
+  background: #19283e;
 }
 
 .navbar .navbar-toggler {
@@ -26,7 +26,7 @@ body {
 }
 
 .main-btn {
-  background-color: #ff3150;
+  background-color: #ff3352;
   color: #ffc400;
   border-radius: 20px;
   padding: 2px 20px;
@@ -54,7 +54,7 @@ body {
 }
 
 #landing {
-  background: #19283f;
+  background: #19283e;
   color: #ffc400;
   min-height: calc(100vh - 72px);
 }
@@ -70,7 +70,7 @@ body {
 }
 
 #landing .text-center .main-btn {
-  background-color: #ff3150;
+  background-color: #ff3352;
   color: #ffc400;
   border-radius: 20px;
   padding: 10px 70px;
@@ -79,5 +79,39 @@ body {
 #landing .text-center .main-btn:hover {
   background-color: #db2944;
   color: #ffc400;
+}
+
+.main-title::after {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 2px;
+  background: #33d1cc;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+  bottom: -20px;
+}
+
+.icon-holder {
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.icon-holder svg {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.icon-holder .number {
+  height: 180px;
+  color: #eff7fa;
+}
+
+.icon-holder .icon {
+  font-size: 3rem;
+  color: #33d1cc;
 }
 /*# sourceMappingURL=style.css.map */
