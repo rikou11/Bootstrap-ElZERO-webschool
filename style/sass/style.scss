@@ -190,3 +190,14 @@ body {
   }
 }
 // * end our team
+// * Start Tech
+#projects {
+  background-color: $dark-color;
+  .discription {
+    font-size: 0.8rem;
+  }
+  .title {
+    color: $yellow-color;
+  }
+}
+// * end Tech

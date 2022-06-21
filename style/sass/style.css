@@ -195,4 +195,16 @@ body {
 #our-team h4 {
   background-color: #33d1cc;
 }
+
+#projects {
+  background-color: #19283e;
+}
+
+#projects .discription {
+  font-size: 0.8rem;
+}
+
+#projects .title {
+  color: #ffc400;
+}
 /*# sourceMappingURL=style.css.map */
