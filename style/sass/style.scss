@@ -204,3 +204,25 @@ body {
 // *start blog\
 
 // *end blog
+
+// * start subscribe
+
+#subscribe {
+  background-color: $yellow-color;
+  .email {
+    width: 100%;
+    color: white;
+    border: none;
+    background-color: $yellow-color;
+    border-bottom: 1px solid white;
+    &:focus {
+      outline: none;
+      border-bottom: 1px solid $dark-color;
+    }
+    &::placeholder {
+      color: white;
+    }
+  }
+}
+
+// * end subscribe
