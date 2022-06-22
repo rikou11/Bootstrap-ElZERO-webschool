@@ -240,4 +240,8 @@ body {
 #subscribe .email::placeholder {
   color: white;
 }
+
+#footer {
+  background-color: #19283e;
+}
 /*# sourceMappingURL=style.css.map */
